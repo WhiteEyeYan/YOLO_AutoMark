@@ -10,7 +10,9 @@
 觀察標記完產生的xml檔，並用python產生相同格式的xml檔  
 ![img](https://github.com/WhiteEyeYan/YOLO_AutoMark/blob/main/README_img/xml_format.jpg)  
   
-利用這少量的圖片，先訓練出一個可以大致判讀物件位置的weights，利用此weights去標記還未標記的圖片  
+利用少量的圖片，先訓練出一個可以大致判讀物件位置及label的weights，利用此weights去標記還未標記的圖片  
 觀察YOLO回傳值可發現回傳值有找到的物件名稱、中心座標、長寬，利用中心座標及長寬可計算出xml要的x, y的min及max  
-按照labelImg的規則產生出該圖片標記完的xml，完成後再打開labelImg檢查位置及標籤是否正確  
+按照labelImg的規則產生出該圖片的xml，完成後再打開labelImg檢查位置及label是否正確  
+  
+檢查label是否正確
 ![img](https://github.com/WhiteEyeYan/YOLO_AutoMark/blob/main/README_img/checkLabel.jpg)
