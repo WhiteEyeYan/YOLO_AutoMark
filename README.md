@@ -1,5 +1,5 @@
 # YOLO_AutoMark  
-語言：python
+語言：python  
 程式最後修改時間：2020/08/24  
   
 一個人手動一張一張標記太慢  
