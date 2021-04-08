@@ -14,5 +14,5 @@
 觀察YOLO回傳值可發現回傳值有找到的物件名稱、中心座標、長寬，利用中心座標及長寬可計算出xml要的x, y的min及max  
 按照labelImg的規則產生出該圖片的xml，完成後再打開labelImg檢查位置及label是否正確  
   
-檢查label是否正確  
+檢查label位置、名稱是否正確  
 ![img](https://github.com/WhiteEyeYan/YOLO_AutoMark/blob/main/README_img/checkLabel.jpg)
